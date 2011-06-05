@@ -1,0 +1,6 @@
+blog:
+  title: My first Blog with Middleman
+  author: Middleman
+other-blog:
+  title: My second Blog with Middleman
+  author: Middleman2

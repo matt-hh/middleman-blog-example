@@ -1,0 +1,12 @@
+!!! XML
+%rss{:version => "2.0", "xmlns:atom" => "http://www.w3.org/2005/Atom"}
+  %channel
+    %title= current_blog['title']
+    %link= current_blog['url']
+    %description= current_blog['description']
+    = '<atom:link href="%s" rel="self" type="application/rss+xml" />' % current_blog['url']
+    - current_blog["posts"][0,20].each do |post|
+      %item
+        %title= post['title']
+        %link= "%s%s" % [current_blog['url'] , post['link'] ]
+        %description= post['description']

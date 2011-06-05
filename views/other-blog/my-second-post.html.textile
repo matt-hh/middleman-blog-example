@@ -1,0 +1,7 @@
+title: My second post in my other blog
+----
+
+
+h2. This is textile...
+
+my second blog

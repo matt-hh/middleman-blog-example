@@ -1,0 +1,18 @@
+= middleman-blog-example
+
+1. clone
+
+    git clone git://github.com/matt-hh/middleman-blog-example.git
+
+2. install
+
+    cd middleman-blog-example; bundle install
+
+3. run
+
+    bundle exec mm-server
+
+   build
+
+    bundle exec mm-build
+    

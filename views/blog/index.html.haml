@@ -1,0 +1,10 @@
+%h2 Latest posts
+
+%ul
+  - current_blog["posts"][0,5].each do |post|
+    %li= link_to post['title'], post['link']
+
+%h4 Links
+%ul
+  %li= link_to "Archive", "/blog/archive.html"
+  %li= link_to "RSS", "/blog/rss.xml"

@@ -1,0 +1,9 @@
+%h2 Archive
+
+%ul
+  - current_blog["posts"].each do |post|
+    %li= link_to post['title'], post['link']
+
+%h4 Links
+%ul
+  %li= link_to "RSS", "/other-blog/rss.xml"

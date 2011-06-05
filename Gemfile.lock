@@ -1,0 +1,89 @@
+GIT
+  remote: git://github.com/matt-hh/middleman-blog.git
+  revision: c4935d6c9202f1be3ae52f058e327521a8d97914
+  specs:
+    middleman-blog (0.0.1)
+      middleman (~> 1.2.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    RedCloth (4.2.7)
+    activesupport (3.0.7)
+    chunky_png (1.2.0)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.1.1)
+    compass (0.11.1)
+      chunky_png (~> 1.1)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    crack (0.1.8)
+    daemons (1.1.3)
+    eventmachine (0.12.10)
+    execjs (1.1.0)
+      multi_json (~> 1.0)
+    fssm (0.2.7)
+    haml (3.1.1)
+    http_router (0.7.10)
+      rack (>= 1.0.0)
+      url_mount (~> 0.2.1)
+    httparty (0.7.7)
+      crack (= 0.1.8)
+    i18n (0.6.0)
+    kramdown (0.13.3)
+    middleman (1.2.7)
+      coffee-script (~> 2.2.0)
+      compass (~> 0.11.1)
+      haml (~> 3.1.0)
+      httparty (~> 0.7.0)
+      padrino-core (~> 0.9.23)
+      padrino-helpers (~> 0.9.23)
+      rack (~> 1.0)
+      rack-test (~> 0.5.0)
+      sass (~> 3.1.0)
+      shotgun (~> 0.8.0)
+      sinatra (~> 1.2.0)
+      thin (~> 1.2.0)
+      thor (~> 0.14.0)
+      tilt (~> 1.3.0)
+      uglifier (~> 0.5.0)
+    multi_json (1.0.3)
+    padrino-core (0.9.29)
+      activesupport (>= 3.0.0)
+      http_router (~> 0.7.8)
+      sinatra (~> 1.2.6)
+      thor (>= 0.14.3)
+      tilt (~> 1.3.0)
+    padrino-helpers (0.9.29)
+      i18n (>= 0.4.1)
+      padrino-core (= 0.9.29)
+    rack (1.3.0)
+    rack-test (0.5.7)
+      rack (>= 1.0)
+    sass (3.1.2)
+    shotgun (0.8)
+      rack (>= 1.0)
+    sinatra (1.2.6)
+      rack (~> 1.1)
+      tilt (< 2.0, >= 1.2.2)
+    thin (1.2.11)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    thor (0.14.6)
+    tilt (1.3.2)
+    uglifier (0.5.4)
+      execjs (>= 0.3.0)
+      multi_json (>= 1.0.2)
+    url_mount (0.2.1)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  RedCloth
+  kramdown
+  middleman-blog!
